@@ -12,6 +12,7 @@ require (
 	github.com/golang/mock v1.4.3
 	github.com/jasonlvhit/gocron v0.0.0-20200323211822-1a413f9a41a2
 	github.com/jinzhu/gorm v1.9.12
+	github.com/kr/fs v0.1.0 // indirect
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/labstack/gommon v0.3.0
 	github.com/leodido/go-urn v1.2.0 // indirect
@@ -21,6 +22,7 @@ require (
 	github.com/slack-go/slack v0.6.3
 	github.com/stretchr/testify v1.4.0
 	github.com/taka-wang/gocron v0.0.0-20160817124449-54e3f1866377
+	github.com/tools/godep v0.0.0-20180126220526-ce0bfadeb516 // indirect
 	golang.org/x/text v0.3.2
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0
