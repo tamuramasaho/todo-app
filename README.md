@@ -13,6 +13,10 @@ cd /Users/user/go/src
 ```
 git clone git@github.com:tamuramasaho/todo-app.git
 ```
+移動します。
+```
+cd todo-app
+```
 
 環境を作ります。
 ```
@@ -25,3 +29,8 @@ docker-compose down -vs
 http://localhost:8000/todos
 
 にアクセスします。
+
+slackへの通知を使いたい場合はWEBHOOKURLを
+slack APIからゲットして
+/repository/todo.go
+のconstを編集してください。

@@ -9,14 +9,13 @@ services:
     ports:
       - 8000:8000
     volumes:
-      - .:/go/src/todo-app
+      - .:/go/src/github.com/Tech-Design-Inc/sirius
     environment:
       DB_USER: root
       DB_PASSWORD: password
       DB_SCHEMA: test
       DB_MAX_CONNECTIONS: "20"
       DB_QUERY_TIMEOUT_SECONDS: "15"
-      TZ: Asia/Tokyo
 
   mysql:
     image: mysql:5.7
