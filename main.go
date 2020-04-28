@@ -4,7 +4,7 @@ import (
 	"github.com/Tech-Design-Inc/sirius/router"
 	// "github.com/robfig/cron/v3"
 	// "github.com/Tech-Design-Inc/sirius/usecase"
-	// "os"
+	"os"
 )
 
 
@@ -17,5 +17,5 @@ func main() {
 	// cron.AddFunc("CRON_TZ=Asia/Tokyo 00 12 * * *", job)	
 	// cron.AddFunc("CRON_TZ=Asia/Tokyo 00 20 * * *", job)
 	// cron.Start()
-  r.Logger.Fatal(r.Start(":8000"))
+  r.Logger.Fatal(r.Start(":") + os.Getenv("PORT"))
 }
