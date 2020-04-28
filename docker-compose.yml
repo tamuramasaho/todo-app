@@ -9,7 +9,7 @@ services:
     ports:
       - 8000:8000
     volumes:
-      - .:/go/src/github.com/Tech-Design-Inc/sirius
+      - .:/go/src/github.com/todo-app
     environment:
       DB_USER: root
       DB_PASSWORD: password

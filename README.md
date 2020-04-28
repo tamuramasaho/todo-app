@@ -6,7 +6,7 @@
 
 $GOPATHは/Users/user/goのように設定します。
 ```
-cd /Users/user/go/src
+cd /Users/user/go/src/github.com
 ```
 
 クローンします。
