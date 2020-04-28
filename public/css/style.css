@@ -1,0 +1,70 @@
+body {
+    font-size: 0.9rem;
+    background-image: linear-gradient(120deg,#487eb0,#fbc531);
+    min-height: 100vh;
+}
+.cursor {
+    cursor: hand; 
+    cursor: pointer;
+}
+
+.dane {
+    text-decoration: line-through;
+}
+
+.fa-times {
+    color: lightgray;
+}
+.fa-times:hover {
+    color: gray;
+}
+.fa-bell {
+    color: mediumseagreen;
+}
+.fa-bell:hover {
+    color: darkgreen;
+}
+.fa-trash-alt {
+    color: red;
+}
+.fa-trash-alt:hover {
+    color: crimson;
+}
+
+.reminder {
+    border: none;
+    background: rgba(255,255,255,0);
+}
+
+.table {
+    margin-bottom: 2rem !important;
+}
+#table-todos {
+    background: rgba(255,255,255,0.5);
+}
+#table-done {
+    background: rgba(0,0,0,.5);
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+span {
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+*:focus {
+    outline: none !important;
+}

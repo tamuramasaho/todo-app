@@ -1,0 +1,27 @@
+{{ define "content" }}
+
+<form id="update" action="/todos/{{ .ID }}" method="PUT">
+  <div class="form-row py-3 px-auto">
+    <div class="col">
+      <input name="title" type="text" class="form-control" value="{{ .Title }}">
+    </div>
+    <div class="col">
+      <input name="due_date" type="date" class="form-control" value="{{ .DueDate2 }}">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col">
+      <select name="remind_at" class="form-control">
+        <option value="the_day_before">前日 8 P.M.</option>
+        <option value="the_day_morning">当日 9 A.M.</option>
+        <option value="the_day_noon">当日 12 P.M.</option>
+      </select>
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-primary">更新</button>
+    </div>
+  </div>
+</form>
+
+
+{{ end }}

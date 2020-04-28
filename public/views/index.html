@@ -1,0 +1,55 @@
+{{ define "content" }}
+
+<div>
+  <form id="create" action="/todos" method="POST">
+    <div class="form-row py-3 px-auto">
+      <div class="col-6">
+        <input name="title" type="text" class="form-control" placeholder="やること">
+      </div>
+      <div class="col-4">
+        <input name="due_date" type="date" class="form-control">
+      </div>
+      <div class="col-2">
+        <button type="submit" class="btn btn-primary">追加</button>
+      </div>
+    </div>
+  </form>
+</div>
+<h5>ToDos</h5>
+<div>
+  <table id="table-todos" class="table borderless">
+    <tbody>
+      {{ range . }}
+      <tr>
+        <td>
+          <button class="fas fa-times cursor unfinished" 
+                          action="/todos/{{ .ID }}" method="GET"></button>
+        </td>
+        <td style="table-layout:fixed;width:30%;">{{ .Title }}</td>
+        <td style="table-layout:fixed;width:10%;">{{ .DueDate }}</td>
+        <td style="table-layout:fixed;width:35%;">
+          <button class="reminder cursor"
+                          action="/todos/{{ .ID }}" method="PATCH"><i class="fas fa-bell fa-2x"></i></button>
+          <span>{{ .RemindAt }}</span>
+        </td>
+        <td style="table-layout:fixed;width:35%;">
+            <a href="/todos/{{ .ID }}/edit"><i class="fas fa-edit fa-2x"></i></a>
+            <button class="delete cursor fas fa-trash-alt fa-2x" 
+                          action="/todos/{{ .ID }}" method="DELETE"></button>
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+<h5>Completed</h5>
+<div>
+  <table id="table-done" class="table borderless">
+    <tbody>
+      <!-- 終わったタスクはappendされる -->
+    </tbody>
+  </table>
+</div>
+
+{{ end }}
+
