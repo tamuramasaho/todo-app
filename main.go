@@ -17,5 +17,5 @@ func main() {
 	// cron.AddFunc("CRON_TZ=Asia/Tokyo 00 12 * * *", job)	
 	// cron.AddFunc("CRON_TZ=Asia/Tokyo 00 20 * * *", job)
 	// cron.Start()
-  r.Logger.Fatal(r.Start(":" + os.Getenv("PORT")))
+  r.Logger.Fatal(r.Start(":8000"))
 }
