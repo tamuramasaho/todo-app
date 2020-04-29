@@ -33,4 +33,5 @@ http://localhost:8000/todos
 slackへの通知を使いたい場合はWEBHOOKURLを
 slack APIからゲットして
 /repository/todo.go
-のconstを編集してください。
+のconstを編集し、
+main.goのcron関係のコードをアンコメントしてください。
