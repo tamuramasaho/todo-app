@@ -1,2 +1,0 @@
-# github.com/Tech-Design-Inc/sirius
-./main.go:7:2: imported and not used: "os"

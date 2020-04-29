@@ -4,7 +4,7 @@ import (
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"github.com/labstack/gommon/log"
-	"github.com/Tech-Design-Inc/sirius/handler"
+	"github.com/tamuramasaho/todo-app/handler"
 )
 
 func New() *echo.Echo {

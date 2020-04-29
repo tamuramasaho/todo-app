@@ -3,10 +3,10 @@ package usecase
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
-	"github.com/Tech-Design-Inc/sirius/usecase/mock_todos"
-	"github.com/Tech-Design-Inc/sirius/entity"
+	"github.com/tamuramasaho/todo-app/usecase/mock_todos"
+	"github.com/tamuramasaho/todo-app/entity"
 	"github.com/golang/mock/gomock"
-	"github.com/Tech-Design-Inc/sirius/form"
+	"github.com/tamuramasaho/todo-app/form"
 	"time"
 )
 

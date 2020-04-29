@@ -9,7 +9,7 @@ services:
     ports:
       - 8000:8000
     volumes:
-      - .:/go/src/github.com/todo-app
+      - .:/go/src/github.com/tamuramasaho/todo-app
     environment:
       DB_USER: root
       DB_PASSWORD: password

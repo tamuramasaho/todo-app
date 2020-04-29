@@ -1,9 +1,9 @@
 package usecase
 
 import (
-  "github.com/Tech-Design-Inc/sirius/entity"
-  "github.com/Tech-Design-Inc/sirius/form"
-  "github.com/Tech-Design-Inc/sirius/repository"
+  "github.com/tamuramasaho/todo-app/entity"
+  "github.com/tamuramasaho/todo-app/form"
+  "github.com/tamuramasaho/todo-app/repository"
   "time"
   "strconv"
   _"fmt"

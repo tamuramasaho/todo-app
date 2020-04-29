@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"github.com/Tech-Design-Inc/sirius/db"
-	"github.com/Tech-Design-Inc/sirius/entity"
+	"github.com/tamuramasaho/todo-app/db"
+	"github.com/tamuramasaho/todo-app/entity"
 	"time"
 	"strconv"
   	"github.com/ashwanthkumar/slack-go-webhook"

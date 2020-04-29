@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/Tech-Design-Inc/sirius/router"
+	"github.com/tamuramasaho/todo-app/router"
 	// "github.com/robfig/cron/v3"
-	// "github.com/Tech-Design-Inc/sirius/usecase"
+	// "github.com/tamuramasaho/todo-app/usecase"
 	// "os"
 )
 

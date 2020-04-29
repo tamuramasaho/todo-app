@@ -2,9 +2,9 @@ package handler
 
 import (
 	"github.com/labstack/echo"
-	"github.com/Tech-Design-Inc/sirius/form"
-	"github.com/Tech-Design-Inc/sirius/response"
-	"github.com/Tech-Design-Inc/sirius/usecase"
+	"github.com/tamuramasaho/todo-app/form"
+	"github.com/tamuramasaho/todo-app/response"
+	"github.com/tamuramasaho/todo-app/usecase"
 	"net/http"
 	// "fmt"
 	// "time"

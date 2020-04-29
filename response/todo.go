@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/Tech-Design-Inc/sirius/entity"
+	"github.com/tamuramasaho/todo-app/entity"
 	"time"
 	// "fmt"
 )

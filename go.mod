@@ -1,4 +1,4 @@
-module github.com/Tech-Design-Inc/sirius
+module github.com/tamuramasaho/todo-app
 
 go 1.13
 

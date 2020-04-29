@@ -5,7 +5,7 @@
 package mock_todos
 
 import (
-	entity "github.com/Tech-Design-Inc/sirius/entity"
+	entity "github.com/tamuramasaho/todo-app/entity"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 	time "time"

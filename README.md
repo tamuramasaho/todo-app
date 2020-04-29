@@ -6,12 +6,12 @@
 
 $GOPATHは/Users/user/goのように設定します。
 ```
-cd /Users/user/go/src/github.com
+cd /Users/user/go/src/github.com/tamuramasaho
 ```
 
 クローンします。
 ```
-git clone git@github.com:tamuramasaho/todo-app.git
+git clone git@github.com:tamuramasaho/tamuramasaho/todo-app.git
 ```
 移動します。
 ```

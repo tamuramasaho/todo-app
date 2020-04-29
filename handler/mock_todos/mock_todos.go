@@ -5,8 +5,8 @@
 package mock_todos
 
 import (
-	entity "github.com/Tech-Design-Inc/sirius/entity"
-	form "github.com/Tech-Design-Inc/sirius/form"
+	entity "github.com/tamuramasaho/todo-app/entity"
+	form "github.com/tamuramasaho/todo-app/form"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )
